@@ -22,8 +22,8 @@ print(a + b + v)
 num = int(input())
 t = num % 2
 
-if t == 0 :
-    print("Enter an odd number")
+if t == 0:
+    print(num + 2)
 else:
     print(num + 1)
 
@@ -34,10 +34,4 @@ print(f_1)
 
 # exercise2_6 The first digit after the decimal point
 enter_number = float(input())
-int_number = int(enter_number)
-if int_number == 0:
-    convert_number = enter_number * 10
-    end_number = int(convert_number)
-    print(end_number)
-if int_number > 0:
-    print(int(10 * (enter_number - int(enter_number))))
+print(int(10 * (enter_number - int(enter_number))))
